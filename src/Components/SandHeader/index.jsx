@@ -4,7 +4,7 @@ import sunshade from '../../assets/images/sunshade.png'
 const SandHeader = () => {
   return (
     <>
-      <div
+      <header
         name='sand'
         className='w-screen flex-col flex h-[450px] bg-sand1 z-0  justify-end'
       >
@@ -46,7 +46,7 @@ const SandHeader = () => {
             points: 5,
           }}
         />
-      </div>
+      </header>
     </>
   )
 }
