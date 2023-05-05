@@ -30,8 +30,8 @@ const SandHeader = () => {
           paused={false}
           options={{
             height: 10,
-            amplitude: 30,
-            speed: 0.2,
+            amplitude: 20,
+            speed: 0.3,
             points: 5,
           }}
         />

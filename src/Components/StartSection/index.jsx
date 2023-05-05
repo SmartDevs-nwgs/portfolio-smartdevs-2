@@ -6,6 +6,7 @@ import {
 } from 'react-icons/fa'
 
 import { GoUnmute, GoMute } from 'react-icons/go'
+import Pointer from '../Pointer'
 
 // eslint-disable-next-line react/prop-types
 const StartSection = ({ sound, setSound }) => {
@@ -89,6 +90,7 @@ const StartSection = ({ sound, setSound }) => {
           </div>
         </section>
       </div>
+      <Pointer />
     </section>
   )
 }
